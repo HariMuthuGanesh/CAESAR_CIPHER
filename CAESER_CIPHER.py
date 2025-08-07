@@ -60,7 +60,8 @@ Label(main_frame, text="Enter your message:", font=("Times New Roman", 16), bg="
 input_text = Text(main_frame, height=5, width=55, font=("Times New Roman", 14),bd=2, relief="solid")
 input_text.pack(pady=5,padx=10)
 
-Label(main_frame, text="Key value:", font=("Times New Roman", 16), bg="#f0f0f0").pack(pady=(15,5))
+Label(main_frame, text="Key value:", font
+      =("Times New Roman", 16), bg="#f0f0f0").pack(pady=(15,5))
 shift_entry = Entry(main_frame, font=("Times New Roman", 14), width=10, justify="center",bd=2, relief="solid")
 shift_entry.pack()
 
